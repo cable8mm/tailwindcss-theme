@@ -1,8 +1,8 @@
 # Tailwindcss theme for Document2
 
-[![js-tests](https://github.com/cable8mm/tailiwindcss-theme/actions/workflows/js-tests.yml/badge.svg)](https://github.com/cable8mm/tailiwindcss-theme/actions/workflows/js-tests.yml)
-![GitHub Release](https://img.shields.io/github/v/release/cable8mm/tailiwindcss-theme)
-![GitHub License](https://img.shields.io/github/license/cable8mm/tailiwindcss-theme)
+[![js-tests](https://github.com/cable8mm/tailwindcss-theme/actions/workflows/js-tests.yml/badge.svg)](https://github.com/cable8mm/tailwindcss-theme/actions/workflows/js-tests.yml)
+![GitHub Release](https://img.shields.io/github/v/release/cable8mm/tailwindcss-theme)
+![GitHub License](https://img.shields.io/github/license/cable8mm/tailwindcss-theme)
 
 This is the official laravel theme for [Document2](https://github.com/cable8m/document2).
 
@@ -24,13 +24,13 @@ If you want to work on this project on your local machine, you may follow the in
 3. Clone your fork into the project folder, by running the following command *with your username placed into the {username} slot*:
 
 ```bash
-git clone git@github.com:{username}/tailiwindcss-theme tailiwindcss-theme
+git clone git@github.com:{username}/tailwindcss-theme tailwindcss-theme
 ```
 
 4. CD into the new directory you just created:
 
 ```bash
-cd tailiwindcss-theme
+cd tailwindcss-theme
 ```
 
 5. Run the `npm install` script, which will take all the steps necessary to prepare your local install:
