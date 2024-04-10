@@ -1,0 +1,42 @@
+{
+  "name": "document2-tailwindcss-theme",
+  "description": "This is the official tailwindcss theme for Document2",
+  "license": "MIT",
+  "author": "Samgu Lee <cable8mm@gmail.com>",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "fix": "eslint src/ --fix --ext .js,.jsx,.ts,.tsx",
+    "lint": "eslint src/ --ext .js,.jsx,.ts,.tsx"
+  },
+  "dependencies": {
+    "@alpinejs/focus": "^3.13.8",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/forms": "^0.5.7",
+    "@tailwindcss/typography": "^0.5.12",
+    "alpinejs": "^3.13.8",
+    "clipboard": "^2.0.11",
+    "mini-svg-data-uri": "^1.4.4",
+    "postcss": "^8.4.38",
+    "postcss-focus-visible": "^9.0.1",
+    "postcss-import": "^16.1.0",
+    "prismjs": "^1.29.0"
+  },
+  "devDependencies": {
+    "@docsearch/css": "^3.3.3",
+    "@docsearch/js": "^3.3.3",
+    "@eslint/js": "^9.0.0",
+    "autoprefixer": "^10.4.14",
+    "eslint": "^8.57.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-promise": "^6.1.1",
+    "laravel-vite-plugin": "^0.7.6",
+    "vite": "^4.3.9",
+    "vitest": "^1.4.0"
+  }
+}

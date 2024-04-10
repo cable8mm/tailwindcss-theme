@@ -1,0 +1,13 @@
+.callout p {
+  margin-bottom: 0;
+}
+
+.docs_main h2 a:before {
+  content: "#";
+  font-weight: 400;
+  position: absolute;
+  opacity: 0.6;
+  margin-left: -25px;
+  font-size: 22px;
+  @apply text-black dark:text-white;
+}
