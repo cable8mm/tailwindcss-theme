@@ -3,14 +3,14 @@ module.exports = {
     'eslint-config-standard'
   ],
   ignorePatterns: ['src/js/vendor/'],
-  "env": {
-    "browser": true
+  env: {
+    browser: true
   },
   rules: {
-    "space-before-function-paren": ["error", {
-      "anonymous": "always",
-      "named": "never",
-      "asyncArrow": "always"
+    'space-before-function-paren': ['error', {
+      anonymous: 'always',
+      named: 'never',
+      asyncArrow: 'always'
     }]
   }
 }
