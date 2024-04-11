@@ -7,8 +7,8 @@ div.callout p {
   margin-top: 0;
 }
 
-blockquote :where(div) :is([class="callout"]) {
-  border-inline-start-width: 0;
+blockquote:has(div.callout) {
+  @apply border-none pl-0;
 }
 
 :not(pre) > code {
